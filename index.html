@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transcend Concierge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="Transcend Logo" class="logo" />
+    <nav>
+      <a href="#contact" class="contact-button">Contact via WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Luxury Travel with Transcend</h1>
+      <p>Exceeding expectations with elegance and style.</p>
+    </section>
+
+    <section class="fleet">
+      <h2>Our Fleet</h2>
+      <div class="vehicles">
+        <div class="vehicle">
+          <img src="sclass.jpg" alt="Mercedes S-Class" />
+          <h3>Mercedes S-CLASS</h3>
+        </div>
+        <div class="vehicle">
+          <img src="vclass-standard.jpg" alt="Standard V-Class" />
+          <h3>Standard Mercedes V Class</h3>
+        </div>
+        <div class="vehicle">
+          <img src="vclass-custom.jpg" alt="Custom V-Class" />
+          <h3>Custom Mercedes V Class</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+      <h2>Request a Quote</h2>
+      <form id="bookingForm">
+        <input type="text" name="pickup" placeholder="Pick-Up Location" required />
+        <input type="text" name="dropoff" placeholder="Drop-Off Location" required />
+        <input type="number" name="passengers" placeholder="Number of Passengers" required />
+        <input type="number" name="hours" placeholder="Total Hours Required" required />
+        <label>
+          <input type="checkbox" name="returnTrip" />
+          Return Trip
+        </label>
+        <textarea name="additional" placeholder="Additional Info (optional)"></textarea>
+        <button type="submit">Submit via WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Transcend Concierge Ltd</p>
+    <p>Email: <a href="mailto:transcendconciergeltd@gmail.com">transcendconciergeltd@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
